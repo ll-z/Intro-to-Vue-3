@@ -20,7 +20,13 @@
         @add-to-cart="updateCart"
       ></product-display>
     </div>
+    <!-- 引入 G6 -->
+    <script src="https://gw.alipayobjects.com/os/antv/pkg/_antv.g6-3.7.1/dist/g6.min.js"></script>
 
+    <script>
+      console.log(G6.Global.version);
+    </script>
+    
     <!-- Import App -->
     <script src="./main.js"></script>
 
@@ -33,5 +39,8 @@
     <script>
       app.mount('#app')
     </script>
+
+
+
   </body>
 </html>
